@@ -1461,6 +1461,7 @@ class AnkiConnect:
 
     @util.api()
     def setDeckDescription(self, deck, description):
+        self.startEditing()
         collection = self.collection()
         deck_obj = collection.decks.by_name(deck)
         if deck_obj is None:
