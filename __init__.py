@@ -1468,6 +1468,8 @@ class AnkiConnect:
             raise Exception('deck was not found: {}'.format(deck))
         
         deck_obj['desc'] = description
+        deck_obj['md'] = True 
+        
         collection.decks.save(deck_obj)
         return True
 
