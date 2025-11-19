@@ -18,8 +18,6 @@ The primary purpose of this fork is to add a single, powerful feature: the abili
   - [Kardenwort Ecosystem](#kardenwort-ecosystem)
   - [License and Acknowledgements](#license-and-acknowledgements)
 
----
-
 ## The Core Enhancement: Programmatic Deck Descriptions
 
 This build introduces one new API action to the standard AnkiConnect feature set, detailed below.
@@ -70,8 +68,6 @@ This action allows an external client to set the description for a given deck. T
 
 [Return to Top](#table-of-contents)
 
----
-
 ## Purpose & Integration with Kardenwort
 
 This custom build was created specifically to enable the `--anki-deck-content` feature in the **Kardenwort** project.
@@ -81,8 +77,6 @@ When you use Kardenwort to generate Anki cards, it can also create a companion `
 This creates a seamless workflow where your Anki decks are not just containers for cards but also hold the complete contextual information from which those cards were derived.
 
 [Return to Top](#table-of-contents)
-
----
 
 ## Installation
 
@@ -108,8 +102,6 @@ The new `setDeckDescription` action will now be available to any client applicat
 
 [Return to Top](#table-of-contents)
 
----
-
 ## Important Notes & Disclaimer
 
 ⚠️ **This is not the official AnkiConnect add-on.** It is a feature-specific fork maintained to support the Kardenwort ecosystem.
@@ -120,15 +112,11 @@ The new `setDeckDescription` action will now be available to any client applicat
 
 [Return to Top](#table-of-contents)
 
----
-
 ## Kardenwort Ecosystem
 
 This project is part of the **[Kardenwort](https://github.com/kardenwort)** environment, designed to create a focused and efficient learning ecosystem.
 
 [Return to Top](#table-of-contents)
-
----
 
 ## License and Acknowledgements
 
