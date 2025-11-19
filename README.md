@@ -15,6 +15,7 @@ The primary purpose of this fork is to add a single, powerful feature: the abili
   - [Purpose \& Integration with Kardenwort](#purpose--integration-with-kardenwort)
   - [Installation](#installation)
   - [Important Notes \& Disclaimer](#important-notes--disclaimer)
+  - [Kardenwort Ecosystem](#kardenwort-ecosystem)
   - [License and Acknowledgements](#license-and-acknowledgements)
 
 ---
@@ -116,6 +117,14 @@ The new `setDeckDescription` action will now be available to any client applicat
 *   **No Automatic Updates:** This build will not receive automatic updates from the official AnkiConnect repository.
 *   **Manual Merging:** To incorporate future updates and bug fixes from the official project, you will need to manually merge them into this fork.
 *   **Intended Use:** This build is recommended only for users who need the `setDeckDescription` functionality. For all other purposes, the official AnkiConnect add-on is sufficient.
+
+[Return to Top](#table-of-contents)
+
+---
+
+## Kardenwort Ecosystem
+
+This project is part of the **[Kardenwort](https://github.com/kardenwort)** environment, designed to create a focused and efficient learning ecosystem.
 
 [Return to Top](#table-of-contents)
 
