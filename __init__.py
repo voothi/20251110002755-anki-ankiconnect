@@ -1543,6 +1543,15 @@ class AnkiConnect:
 
 
     @util.api()
+    def findCardsInfo(self, query=None):
+        if query is None:
+            return []
+
+        cards = list(map(int, self.collection().find_cards(query)))
+        return self.cardsInfo(cards)
+
+
+    @util.api()
     def cardsInfo(self, cards):
         result = []
         for cid in cards:
