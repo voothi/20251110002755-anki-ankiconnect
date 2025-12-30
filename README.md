@@ -20,13 +20,18 @@ The primary purpose of this fork is to add a single, powerful feature: the abili
 
 ---
 
-## The Core Enhancement: Programmatic Deck Descriptions
+## The Core Enhancement: Programmatic Deck Descriptions & Efficient Searching
 
-This build introduces one new API action to the standard AnkiConnect feature set, detailed below.
+This build introduces two new API actions to the standard AnkiConnect feature set, detailed below.
 
 | Action | Description | Parameters |
 | :--- | :--- | :--- |
 | `setDeckDescription` | Sets or updates the description text for a specified Anki deck. | `deck` (string), `description` (string) |
+| `findCardsInfo` | Combined search and retrieval: finds cards by query and returns their info in one request. | `query` (string) |
+
+### New API Action: `findCardsInfo` [New in v1.48.2]
+
+Optimizes execution by combining `findCards` and `cardsInfo`. It finds card IDs matching the `query` and immediately returns their detailed information, halving the number of HTTP requests required for search-and-retrieve operations.
 
 ### New API Action: `setDeckDescription`
 
